@@ -36,3 +36,9 @@ for i in range(0, number_of_symbols):
     j = random.choice(symbols)
     k = random.randrange(0, length_of_password-1)
     password.insert(k, j)
+
+
+#print the random created password
+print("Your password is: ", end='')
+for i in password:
+    print(i, end='')
